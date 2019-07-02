@@ -16,3 +16,18 @@ Route::get('/marketplace', 'MarketplaceController@index');
 // Route::get('/auction', 'AuctionController@index');
 Route::get('/login', 'LoginController@index');
 Route::get('/detail', 'DetailController@index');
+
+// Route::get('/', function () {
+
+// })->middleware('cekLogin');
+
+// Route::get('/', 'DashboardController@index');
+// Route::get('/marketplace', 'MarketplaceController@index');
+// // Route::get('/auction', 'AuctionController@index');
+// Route::get('/login', 'LoginController@index');
+// Route::get('/detail', 'DetailController@index');
+// // Route::get('/detail', function () {
+// //     return view('detail');
+// // });
+// Route::resource('/auction', 'AuctionController')->middleware('cekUser');
+
